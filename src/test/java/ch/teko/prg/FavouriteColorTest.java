@@ -10,8 +10,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 class FavouriteColorTest {
-    private static final String LIST_URL = "http://localhost:8080/list-colors/";
-    private static final String STORE_URL = "http://localhost:8080/store-color";
+    private static final String LIST_URL = "http://localhost:8086/list-colors/";
+    private static final String STORE_URL = "http://localhost:8086/store-color";
 
     private RestTemplate restTemplate = new RestTemplate();
 

@@ -32,6 +32,6 @@ public class PersistenceContextDemoComponent {
     }
 
     private void log(EntityType<?> entityType) {
-        System.out.println(entityType.getName() + " is registered at persitence context");
+        System.out.println(entityType.getName() + " is registered at persistence context");
     }
 }
